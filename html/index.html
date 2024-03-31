@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Meta facebook icon, title and description below-->
+        <meta 
+            property="og:image"
+            content="../img/green-b-icon.png"
+        />
+        <meta
+            property="og:description"
+            content="This is a test page made by Victor Gomes in order to improve developers skills."
+        />
+        <meta
+            property="og:title"
+            content="Test page made with MDN tutorials"
+        />
+        <!--Page icon for either thumbnail and favorites-->
+        <link rel="shortcut icon" href="../img/green-b-icon.png" type="image/x-icon" />
+        
+        <link rel="stylesheet" href="../css/index.css" />
+        
+        <script src="../script/index.js"></script>
+
+        <title>Test page v1</title>
+    </head>
+    <body>
+    
+        <header>
+            <h1>Biologia</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../html/index.html">HOME</a></li>
+                <li><a href="../html/author.html">SOBRE</a></li>
+            </ul>
+            <!--Barra de pesquisa-->
+            <form>
+                <input type="search" name="q" placeholder="procurar" />
+                <input type="submit" value="ir" />
+            </form>
+        </nav>
+        <!--Imagem do B-->
+        <figure>
+            <a href="https://www.google.com/search?q=green+b+png&sca_esv=dd5fb20fe780040b&hl=pt-BR&tbm=isch&sxsrf=ACQVn08Grg7xqF5gnGkrJXh2vPgnrMSUjQ%3A1711393617807&source=hp&biw=923&bih=967&ei=UcsBZuGCL6DJ5OUPqIa3mAE&iflsig=ANes7DEAAAAAZgHZYboeBEi4727KNUvsXE7WgID2tY14&udm=&oq=&gs_lp=EgNpbWciACoCCAAyBxAjGOoCGCcyBxAjGOoCGCcyBxAjGOoCGCcyBxAjGOoCGCcyBxAjGOoCGCcyBxAjGOoCGCcyBxAjGOoCGCcyBxAjGOoCGCcyBxAjGOoCGCcyBxAjGOoCGCdI4wlQAFgAcAF4AJABAJgBAKABAKoBALgBAcgBAIoCC2d3cy13aXotaW1nmAIBoAIZqAIKmAMZkgcBMaAHAA&sclient=img" target="_blank" title="B verde aleatorio">
+                <img src="../img/green-b-icon.png" alt="B aleatorio que eu achei no google" width="150px"/>
+            </a>
+            <figcaption>
+                Um b aléatorio
+            </figcaption>
+        </figure>
+        <!--Video-->
+        <video controls width="400" preload="metadata">
+            <source src="../video/tenha calma moreno.mp4">
+            <track kind="subtitles" src="../video/webvtt/tenha-calma-moreno_en.vtt" srclang="en" label="Inglês" default/>
+            <track kind="captions" src="../video/webvtt/tenha-calma-moreno_pt.vtt" srclang="pt-BR" label="Portugês-Br" />
+            <p>
+                <a href="../video/tenha calma moreno.mp4" download="tenha calma moreno">k</a>
+            </p>
+        </video>
+
+        <hr>
+        
+        <!--Audio-->
+        <audio controls preload="auto">
+            <source src="../audio/tenha calma moreno.m4a" type="audio/m4a">
+            <source src="../audio/tenha-calma-moreno.mp3" type="audio/mp3">
+            <p>
+                Seu navegador não suporta audio HTML5. Aqui o
+                <a href="../audio/tenha calma moreno.m4a">link para download</a>
+            </p>
+        </audio>
+
+        <br> <!--That's a comment-->
+        
+        <main>
+            <article>
+                <h2 style="text-decoration: underline;"><a href="https://pt.wikipedia.org/wiki/Histologia" title="Veja sobre histologia na wikipedia" target="_blank">Histologia</a></h2>
+                <figure>
+                    <p>
+                        <cite>
+                            Histologia é a ciência que estuda os tecidos(grego-<i lang="la">histos:</i> rede ou tecido; 
+                            <i lang="la">logia:</i> ramo de aprendizado). Nessa materia veremos brevemente:
+                        </cite>
+                    </p>
+                    <figcaption>
+                        <sub>
+                            Segundo o Museu de Ciências da Vida da UFES
+                        </sub>
+                    </figcaption>
+                </figure>
+                <p>
+                    As famílias de células com estrutura, função e comportamento semelhantes constituem os tecidos 
+                    do corpo. Estes tecidos foram classificados com base em sua morfologia, localização, funções e 
+                    origem embriológica. Há quatro tecidos básicos: tecido epitelial, tecido conjuntivo, tecido 
+                    muscular e tecido nervoso
+                </p>
+                <ul>
+                    <li>Tecido conjuntivo</il>
+                    <li>Tecido epitelial</li>
+                </ul>
+                <h3>Tecido conjuntivo</h3>
+                <div>
+                    <p>
+                        Diferente do tecido epitelial ele tem uma abundancia de matriz extracelular e a principal 
+                        proteína dele é o colágeno secretado pelo fibroblasto. Além do colágeno também existem fibras 
+                        elásticas, fibras de resistência, proteínas e carboidratos entre várias outras substâncias.
+                    </p>
+                    <p id="vitamina_c">
+                        <strong>Vitamina C:</strong> é essencial para a síntese do colágeno e o deficit dele 
+                        pode causar  escorbuto.
+                    </p>
+                    <p>
+                        Ele é dividido basicamente em dois tipos; tecido conjuntivo propriamente dito e tecidos conjuntivos
+                        especiais. <br><br> 
+                        Tecido conjuntivo propriamente dito = grande massa de matriz extracelular. <br>
+                        Se ele tem pouco colágeno é dito que é um tecido conjuntivo propriamente dito frouxo e serve 
+                        basicamente para preencher os órgãos. <br>
+                        Se tiver bastante colágeno é chamado de tecido conjuntivo propriamente dito denso e tem papel 
+                        de resistência mecânica.
+                    </p>
+                    <p>
+                        Você encontra tecido conjuntivo propriamente dito denso modelado nos tendões, o fato dele ser 
+                        modelado significa que as fibras do colágeno estão todas na mesma direção, aumentando a resistência 
+                        em um único sentido.
+                    </p>
+                    <p>
+                        Já o tecido conjuntivo propriamente dito denso não modelado não tem nenhuma orientação quanto 
+                        as suas fibras de colágeno dando uma resistência mais geral, eles são encontrados na pele.
+                    </p>
+                    <p>
+                        Entre os especializados nos temos os tecidos adiposo, ósseo, cartilaginoso e hematopoiético.
+                    </p>
+                    <dl>
+                        <dt>Adiposo:</dt>
+                        <dd>    
+                                Serve como reserva de energia, como proteção contra choques mecânicos e isolante 
+                                térmico. Existe também o tecido adiposo marrom que além das outras funções também gera calor, 
+                                ele é encontrado basicamente em animais que vivem em ambientes muito frios embora seres humanos 
+                                nasçam com uma pequena quantidade disso principalmente na região do pescoço.
+                        </dd>
+                        <br>
+                        <dt>Cartilaginoso:</dt>
+                            <dd>
+                                Principal célula dele é o condrócito que é responsável pela manutenção da matriz 
+                                cartilaginosa. Ela tem função de modelar como na orelha ou de proteção mecânica como as das 
+                                articulações. Elas também formam um molde para ossificação, ela não vira osso apenas faz um molde 
+                                que vai ser substituído por osso com o tempo. Alguns peixes como os tubarões e arraias matem o 
+                                tecido cartilaginoso por toda a vida, mas os outros vertebrados tem o esqueleto formado pelo 
+                                tecido conjuntivo ósseo.
+                            </dd>
+                        <br>
+                        <dt>Ósseo:</dt>
+                            <dd>
+                                Matriz extracelular mineralizada, rica em fosfato e cálcio. Nele existem vários canais por 
+                                onde passam os vasos sanguíneos. A matriz do tecido ósseo é produzida por uma célula especial chamada 
+                                osteoblasto. O osteoblasto coloca em torno de si a proteína da matriz que vai sendo mineralizada com 
+                                o tempo e quando ela ta solidificada o osteoblasto se transforma em osteócito, que é bem menos ativo 
+                                mas ainda muito importante pois sua falta causa degradação da matriz extracelular. Outra célula 
+                                importante é a osteoclasto que tem como função a degradação da matriz óssea quando necessário. 
+                                Por exemplo quando existe deficiência de cálcio no organismo, ele começa a <a href="index.html#vitamina_c" title="importancia da vitamina C">destruir a matriz para 
+                                liberar esses minerais pro sangue.</a> 
+                            </dd>
+                        <br>
+                        <dt>ético:</dt>
+                            <dd>
+                                O sangue é composto por uma grande quantidade de matrizes extracelular liquida como 
+                                o plasma e os elementos figurados que são as células e as plaquetas. As células encontradas em maior 
+                                quantidade no sangue são as hemácias que compõe 45% do volume do sangue. Elas são formadas por uma 
+                                proteína chamada hemoglobina que é quem da a cor vermelha ao sangue e que é rica em ferro. O ferro é 
+                                usado para carregar oxigênio enquanto o plasma leva os gás carbônico dissolvido. As outras células 
+                                chamadas coletivamente de <abbr title=" ou leucócitos">góbulos brancos</abbr> e são responsáveis pela defesa do organismo. 
+                                As plaquetas por sua vez não são células mas sim fragmentos de células e tem papel na coagulação.
+                            </dd>
+                    </dl>
+                </div>
+            </article>
+            <aside>
+                <h2>Artigos relacionados</h2>
+                <ul>
+                    <li>
+                        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjZrd6C75KFAxXnFbkGHbY2BBgQmhN6BAhSEAI&url=https%3A%2F%2Fpt.wikipedia.org%2Fwiki%2FRibossoma&usg=AOvVaw0XMK7zLXAP7sqMKRSwPKSV&opi=89978449" target="_blank">
+                            Ribossomos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjV1Z_x7pKFAxXGPrkGHexXCfMQmhN6BAhQEAI&url=https%3A%2F%2Fpt.wikipedia.org%2Fwiki%2FEmbriologia&usg=AOvVaw2nQxstKAcjfsgC0Rx6p-wa&opi=89978449" target="_blank">
+                            Embriologia
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiP562N75KFAxXKLbkGHWD4D8MQmhN6BAhGEAI&url=https%3A%2F%2Fpt.wikipedia.org%2Fwiki%2FRespira%25C3%25A7%25C3%25A3o_celular&usg=AOvVaw29NdGsqgNCuwsc_M3P7XOD&opi=89978449" target="_blank">
+                            Respiração Celular
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+        </main>
+    </body>
+    <footer>
+        <address>
+            <p>Essa pagigna foi criada por <a href="../html/author.html">Victor Gomes</a></p>
+        </address>
+        <p>Você encontra o codigo desse site no meu <a href="https://github.com/VictorGomes98?tab=repositories" target="_blank" title="VictorGomes98">perfil do github.</a></p>
+        <p>Você também pode entrar em contato comigo pelo <a href="mailto:victorgomes98@gmail.com?subject=Email%20pela%20pagina%20sobre%20tecidos%20conjuntivo%20e%20e%20epitelial">victorgomes98@gmail.com</a></p>
+        <p>Você também pode <a href="../img/green-b-icon.png" download="green-b-icon.png" title="logo: green-b-icon.png"> fazer download da logo</a> por motivo nenhum</p>
+        <br>
+        <br>
+    </footer>
+</html>
